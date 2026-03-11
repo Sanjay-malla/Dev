@@ -1,3 +1,4 @@
+WageWings
 📋 Problem Statement
 Gig workers in India lose 4-6 hours of wages whenever unexpected disruptions strike—heavy rain, extreme heatwaves, or sudden curfews. With no safety net, a single rainy day can cost a delivery partner ₹400-600. Existing insurance is either unavailable or requires manual claims filing when workers are already stressed.
 
