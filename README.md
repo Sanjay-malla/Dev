@@ -118,50 +118,8 @@ Updates	✅ Instant	❌ App store review	Web
 Offline capability	✅ (PWA)	✅	PWA
 Push notifications	✅	✅	Both
 Final Choice: Progressive Web App (PWA) - mobile-responsive website that works offline and can be installed on home screen.
-┌─────────────────────────────────────────────────────────┐
-│                    CLIENT LAYER                          │
-│  ┌─────────────┐        ┌─────────────────────────┐    │
-│  │ User Portal │        │    Admin Dashboard      │    │
-│  │ (Next.js)   │        │    (Next.js)            │    │
-│  └─────────────┘        └─────────────────────────┘    │
-└─────────────────────────────────────────────────────────┘
-                           │
-                           ▼
-┌─────────────────────────────────────────────────────────┐
-│                   API GATEWAY                            │
-│                 (Express Middleware)                      │
-└─────────────────────────────────────────────────────────┘
-                           │
-                           ▼
-┌─────────────────────────────────────────────────────────┐
-│                 APPLICATION LAYER                        │
-│  ┌─────────────┐  ┌─────────────┐  ┌─────────────────┐  │
-│  │    Auth     │  │   Policy    │  │  Risk Engine    │  │
-│  │   Service   │  │   Service   │  │  (AI/ML logic)  │  │
-│  └─────────────┘  └─────────────┘  └─────────────────┘  │
-│  ┌─────────────┐  ┌─────────────┐  ┌─────────────────┐  │
-│  │   Claim     │  │   Fraud     │  │    Payout       │  │
-│  │   Oracle    │  │ Detection   │  │   Service       │  │
-│  └─────────────┘  └─────────────┘  └─────────────────┘  │
-└─────────────────────────────────────────────────────────┘
-                           │
-                           ▼
-┌─────────────────────────────────────────────────────────┐
-│                    DATA LAYER                            │
-│  ┌─────────────┐  ┌─────────────┐  ┌─────────────────┐  │
-│  │ PostgreSQL  │  │    Redis    │  │   S3/Storage    │  │
-│  │  (Neon)     │  │  (Upstash)  │  │   (Documents)   │  │
-│  └─────────────┘  └─────────────┘  └─────────────────┘  │
-└─────────────────────────────────────────────────────────┘
-                           │
-                           ▼
-┌─────────────────────────────────────────────────────────┐
-│                 EXTERNAL INTEGRATIONS                    │
-│  ┌─────────────┐  ┌─────────────┐  ┌─────────────────┐  │
-│  │OpenWeather  │  │  Razorpay   │  │   Cron-job.org  │  │
-│  │    API      │  │  Sandbox    │  │   (Monitoring)  │  │
-│  └─────────────┘  └─────────────┘  └─────────────────┘  │
-└─────────────────────────────────────────────────────────┘
+<img width="709" height="633" alt="image" src="https://github.com/user-attachments/assets/9b5efacd-e581-4db6-80fa-99b494a380fd" />
+
 🛠️ Tech Stack
 Layer	Technology	Justification
 Frontend	Next.js + Tailwind CSS	Fast development, SEO-friendly, free hosting (Vercel)
