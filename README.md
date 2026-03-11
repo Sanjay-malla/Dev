@@ -15,7 +15,8 @@ Biggest Fear	Monsoon rains (June-September) stopping deliveries = 4-5 hours lost
 Current Situation	No insurance. If it rains, he doesn't earn.
 Why Q-Commerce?
 With 10-minute delivery promises, ANY disruption means IMMEDIATE income loss. Rain, heat, or curfew directly impacts their ability to meet SLAs, making parametric insurance most valuable for this segment.
-https://gemini.google.com/share/3cabb1ff0682
+<img width="1256" height="681" alt="image" src="https://github.com/user-attachments/assets/7d5c9c06-488b-4238-aaea-603491ca13d1" />
+
 Step-by-Step User Journey
 Registration: Rajesh signs up with phone number and Blinkit partner ID
 
