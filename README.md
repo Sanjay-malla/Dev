@@ -61,27 +61,20 @@ Instant Payout: ₹400 credited to Rajesh's bank account
 
 Notification: Rajesh gets SMS: "Rain detected! ₹400 credited for lost income"
 ## Real-World Examples
-Example 1: Rajesh (Mumbai, Monsoon, Clean Record)
+| Risk Profile | Users | Avg Premium | Total Premium | Expected Claims | Total Payout | Company Gain |
+|--------------|-------|-------------|---------------|-----------------|--------------|--------------|
+| Platinum     | 200   | ₹9,500      | ₹19,00,000    | 10 (5%)         | ₹1,00,000    | ₹18,00,000  |
+| Gold         | 300   | ₹12,000     | ₹36,00,000    | 30 (10%)        | ₹2,40,000    | ₹33,60,000  |
+| Silver       | 300   | ₹15,000     | ₹45,00,000    | 45 (15%)        | ₹2,70,000    | ₹42,30,000  |
+| Basic        | 200   | ₹18,000     | ₹36,00,000    | 40 (20%)        | ₹1,60,000    | ₹34,40,000  |
+| **TOTAL**    | **1000** | | **₹1,36,00,000** | **125 claims** | **₹7,70,000** | **₹1,28,30,000** |
 
-Base: ₹200
-
-High-risk zone: ×1.5
-
-Monsoon season: ×1.3
-
-Clean record: ×0.8
-
-Final: 200 × 1.5 × 1.3 × 0.8 = ₹312/week
-
-Example 2: Priya (Bangalore, Low-risk, New User)
-
-Base: ₹200
-
-Low-risk zone: ×0.9
-
-New user: ×1.0
-
-Final: 200 × 0.9 × 1.0 = ₹180/week
+| # | Insight | Details |
+|---|---------|---------|
+| 1 | Protection from catastrophic losses | Without threshold: Single major claim = ₹50,000-1,00,000<br>With threshold: Maximum exposure is capped |
+| 2 | Predictable profitability | Company knows maximum liability = (Users × Threshold × Max claim rate) |
+| 3 | Gain margin | Company gains ~94% of premiums collected (₹1.28Cr gain from ₹1.36Cr premiums) |
+| 4 | Risk-adjusted returns | Higher-risk users pay more but get lower thresholds, ensuring profitability across segments |
 ## ⚡ Parametric Triggers
 Trigger	Data Source	Threshold	Payout Calculation
 Heavy Rain	OpenWeatherMap	>5mm/hr in last hour	4 hrs × avg hourly wage
