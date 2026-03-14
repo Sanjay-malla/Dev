@@ -10,7 +10,7 @@ We're building RainShield: an AI-powered parametric insurance platform that auto
 | **NAME** | RAVI |
 | **Age** | 24 years |
 | **Platform** | Blinkit (Q-Commerce) |
-| **Location** | Andheri East, Mumbai |
+| **Location** | Andhra East, Mumbai |
 | **Daily Income** | ₹800 – ₹1,200 |
 | **Work Schedule** | 6 days/week, 8-10 hours/day |
 | **Family** | Lives with parents, supports younger sister's education |
